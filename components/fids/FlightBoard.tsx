@@ -25,7 +25,7 @@ export function FlightBoard({ initialFlights }: FlightBoardProps) {
       {/* Header */}
       <header className="bg-board-header border-b border-board-border px-6 py-4 flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold tracking-widest text-amber-400 uppercase">
+          <h1 className="text-2xl font-bold tracking-widest text-amber-700 uppercase">
             RunwayBriefing
           </h1>
           <p className="text-xs text-board-muted tracking-widest uppercase mt-0.5">

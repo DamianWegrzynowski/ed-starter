@@ -39,7 +39,7 @@ export function FlightRow({ flight, index }: FlightRowProps) {
         isDeparted && 'opacity-60'
       )}
     >
-      <span className="font-bold text-amber-300 tracking-wider">{flight.flightNumber}</span>
+      <span className="font-bold text-amber-700 tracking-wider">{flight.flightNumber}</span>
       <span className="text-board-muted truncate">{flight.airline}</span>
       <span
         className={cn(
@@ -49,7 +49,7 @@ export function FlightRow({ flight, index }: FlightRowProps) {
       >
         {flight.destination}
       </span>
-      <span className="tabular-nums text-center text-amber-100">{flight.departureTime}</span>
+      <span className="tabular-nums text-center text-amber-700">{flight.departureTime}</span>
       <span className="text-center text-board-muted">{flight.terminal}</span>
       <span className="text-center text-board-muted">{flight.gate}</span>
 

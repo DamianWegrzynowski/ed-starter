@@ -7,11 +7,11 @@ const statusBadgeVariants = cva(
   {
     variants: {
       status: {
-        'On Time': 'bg-emerald-900 text-emerald-300 border border-emerald-700',
-        Boarding: 'bg-amber-900 text-amber-300 border border-amber-600 animate-pulse',
-        Departed: 'bg-zinc-800 text-zinc-500 border border-zinc-700',
-        Delayed: 'bg-orange-900 text-orange-300 border border-orange-700',
-        Cancelled: 'bg-red-950 text-red-400 border border-red-800',
+        'On Time': 'bg-emerald-100 text-emerald-800 border border-emerald-300',
+        Boarding: 'bg-amber-100 text-amber-800 border border-amber-300 animate-pulse',
+        Departed: 'bg-slate-100 text-slate-500 border border-slate-300',
+        Delayed: 'bg-orange-100 text-orange-800 border border-orange-300',
+        Cancelled: 'bg-red-100 text-red-700 border border-red-300',
       },
     },
     defaultVariants: {

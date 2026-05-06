@@ -3,13 +3,13 @@
 @theme {
   --font-mono: 'Courier New', Courier, monospace;
 
-  --color-board-bg: #0a0a0a;
-  --color-board-row: #111111;
-  --color-board-row-alt: #161616;
-  --color-board-border: #222222;
-  --color-board-text: #f5f0e0;
-  --color-board-muted: #6b6b6b;
-  --color-board-header: #1a1a1a;
+  --color-board-bg: #f1f5f9;
+  --color-board-row: #ffffff;
+  --color-board-row-alt: #f8fafc;
+  --color-board-border: #cbd5e1;
+  --color-board-text: #0f172a;
+  --color-board-muted: #475569;
+  --color-board-header: #e2e8f0;
 
   --animate-flip-top: flipTop 0.25s ease-in forwards;
   --animate-flip-bottom: flipBottom 0.25s ease-out 0.25s forwards;
@@ -72,9 +72,9 @@ body {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #111;
+  background: #e2e8f0;
 }
 ::-webkit-scrollbar-thumb {
-  background: #333;
+  background: #94a3b8;
   border-radius: 3px;
 }
