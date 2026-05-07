@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": ".claude/hooks/block-dangerous.sh"
+            "command": ".claude/hooks/block-dangerous.ps1"
           }
         ]
       }
@@ -23,7 +23,7 @@
       }
       
     ],
-    
+
      "Stop": [
       {
         "hooks": [
